@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  color: #3e4772;
 }
 
 div#main {
@@ -23,7 +24,6 @@ div#main {
 section {
   position: relative;
   width: 100vw;
-  color: aliceblue;
 }
 
 section.min-height {
