@@ -23,7 +23,7 @@ const imageAltText = "minimal background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description = "I'm Computer Science student at Bangkok University";
+const description = "I'm a Scholarship Computer Science student at Bangkok University";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -43,8 +43,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const detailOrQuote = "I'm passionate about Web developer, Computer Programming";
 
 const About = () => {
   return (
