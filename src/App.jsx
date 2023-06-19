@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Haris Kirdpakdee",
-  title: "Web Designer & Content Creator",
+  title: "Web Designer & Computer Programmer",
   email: "haris.kird@gmail.com",
   gitHub: "Hariskp",
   instagram: "risz_kp",
