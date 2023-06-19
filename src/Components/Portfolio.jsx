@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/mewhentalking.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Microsoft Learn Student Ambassadors Alpha",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "My Second Step of Microsoft Learn Student Ambassadors Program.",
+    url: "https://studentambassadors.microsoft.com/studentambassadors/certificate/82919d4a-e2d8-4908-9469-01ee99c649c8",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Apartment Management Program",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Project-Riskiapartment Which is my University Project that i made with my team. This is Apartment Management Program.",
+    url: "https://github.com/Hariskp/Project-Riskiapartment",
   },
   {
-    title: "My Resume Site",
+    title: "My Science Communication Experience",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "My Scicence Communication on Stage. I went on behalf of YTSA (Young Thai Science Ambassador) as a science fair in 2022.",
+    url: "https://www.linkedin.com/posts/haris-kirdpakdee_experience-science-event-activity-6967418378693079040-HtmY?utm_source=share&utm_medium=member_desktop",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "My Resume",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is my Resume.",
+    url: "https://drive.google.com/file/d/1TbHxzw-1MzsljrsQ9zoUxIxeIJZ8QbM2/view?usp=sharing",
   },
 ];
 
