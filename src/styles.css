@@ -18,12 +18,12 @@ div#main {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  color: aliceblue;
 }
 
 section {
   position: relative;
   width: 100vw;
+  color: aliceblue;
 }
 
 section.min-height {
