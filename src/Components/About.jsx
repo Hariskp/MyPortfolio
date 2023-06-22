@@ -33,7 +33,7 @@ const skillsList = [
   "Web design",
   "User experience",
   "Python Programming",
-  "Able to use Language \nPython, Java, SQL, HTML, CSS, JavaScript",
+  "Able to use Language Python, Java, SQL, HTML, CSS, JavaScript",
   "Science Communication",
   "Event Organizer",
 ];
