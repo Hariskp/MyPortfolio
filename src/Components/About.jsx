@@ -1,50 +1,49 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
-
 import React from "react";
-
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
 import image from "../images/background.jpg";
-
 const imageAltText = "minimal background";
-
-/**
- * Sort description that expands on your title on the Home component.
- */
-const description = "I'm a Scholarship Computer Science student at Bangkok University";
-
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
+const description =
+  "I'm a Scholarship Computer Science student at Bangkok University, Microsoft Lean Student Ambassadors";
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Python Programming",
-  "Able to use Language Python, Java, SQL, HTML, CSS, JavaScript",
-  "Science Communication",
-  "Event Organizer",
+  "Web programming",
+  "UX/UI",
+  "Programming",
+  "Python, HTML/CSS, JavaScript, Java, React, SQL, UX/UI Design, Linux, Node.js, Express.js, Swift",
+  "Linux",
+  "Git",
+  "Figma",
+  "Documents",
+  "Cybersecurity",
 ];
-
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
-const detailOrQuote = "I'm passionate about Web developer, Computer Programming";
-
+const softskillList = [
+  "Communication",
+  "Teamwork and Collaboration",
+  "Flexibility",
+  "Creativity",
+  "Event Organizer",
+  "Public Speaking",
+  "Science Communication",
+];
+const tools = [
+  "Kali Linux",
+  "Azure Service",
+  "Office",
+  "Figma",
+  "Photoshop",
+  "vmware",
+  "Postman",
+  "Docker",
+  "Firebase",
+  "MongoDB",
+];
+const interests = [
+  "Web Development",
+  "Cybersecurity",
+  "DevOps",
+  "Fullstack",
+  "Business",
+  "Software Development",
+  "UX/UI Design",
+];
 const About = () => {
   return (
     <section className="padding" id="about">
@@ -61,6 +60,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
+        <h3>Hard Skills</h3>
         <ul
           style={{
             textAlign: "left",
@@ -75,7 +75,50 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <h3>Soft Skills</h3>
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 2,
+            fontSize: "1.25rem",
+            margin: "2rem 3rem",
+            gap: "3rem",
+          }}
+        >
+          {softskillList.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
+        <hr />
+        <h3>Tools</h3>
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 2,
+            fontSize: "1.25rem",
+            margin: "2rem 3rem",
+            gap: "3rem",
+          }}
+        >
+          {tools.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
+        <hr />
+        <h3>Interests</h3>
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 2,
+            fontSize: "1.25rem",
+            margin: "2rem 3rem",
+            gap: "3rem",
+          }}
+        >
+          {tools.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
       </div>
     </section>
   );
