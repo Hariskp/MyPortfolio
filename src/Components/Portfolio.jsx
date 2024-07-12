@@ -1,40 +1,14 @@
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */
-
 import React from "react";
-
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
 import image from "../images/mewhentalking.jpg";
+import image2 from "../images/meteaching.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
-/**
- * Project list
- *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
- */
 const projectList = [
   {
-    title: "Microsoft Learn Student Ambassadors Alpha",
-    description:
-      "My Second Step of Microsoft Learn Student Ambassadors Program.",
-    url: "https://studentambassadors.microsoft.com/studentambassadors/certificate/82919d4a-e2d8-4908-9469-01ee99c649c8",
+    title: "Microsoft Learn Student Ambassadors Beta",
+    description: "Microsoft Learn Student Ambassadors Program.",
+    url: "https://mvp.microsoft.com/studentambassadors/certificate/82919d4a-e2d8-4908-9469-01ee99c649c8",
   },
   {
     title: "Apartment Management Program",
@@ -49,10 +23,15 @@ const projectList = [
     url: "https://www.linkedin.com/posts/haris-kirdpakdee_experience-science-event-activity-6967418378693079040-HtmY?utm_source=share&utm_medium=member_desktop",
   },
   {
-    title: "My Resume",
+    title: "My CV 2024",
+    description: "This is my CV for Job Interview.",
+    url: "https://drive.google.com/file/d/1CjNsiQMNmbCMreFseHGNUVhmy4wX1936/view?usp=share_link",
+  },
+  {
+    title: "Sphere Weather",
     description:
-      "This is my Resume.",
-    url: "https://drive.google.com/file/d/1TbHxzw-1MzsljrsQ9zoUxIxeIJZ8QbM2/view?usp=sharing",
+      "Sphere is Weather Website build with React, JavaScrip, HTML, CSS and made by our Team.",
+    url: "https://github.com/Hariskp/Sphere",
   },
 ];
 
@@ -66,6 +45,11 @@ const Portfolio = () => {
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
+          />
+          <img
+            src={image2}
+            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            alt="myimage"
           />
         </div>
         <div className="container">
