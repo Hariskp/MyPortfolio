@@ -26,7 +26,7 @@ const softskillList = [
 const tools = [
   "Kali Linux",
   "Azure Service",
-  "Office",
+  "Microsoft Office",
   "Figma",
   "Photoshop",
   "vmware",
@@ -115,7 +115,7 @@ const About = () => {
             gap: "3rem",
           }}
         >
-          {tools.map((skill) => (
+          {interests.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
         </ul>

@@ -33,23 +33,24 @@ const projectList = [
       "Sphere is Weather Website build with React, JavaScrip, HTML, CSS and made by our Team.",
     url: "https://github.com/Hariskp/Sphere",
   },
+  {
+    title: "Thailand Cyber Top Talent 2023",
+    description: "Thailand Cyber Top Talent 2023 😆 #thailandcybertoptalent2023",
+    url: "https://drive.google.com/file/d/1cXkNaqahw_pPHPz958w1bqFgNz-cgicO/view?usp=share_link",
+  },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h3 style={{ textAlign: "center" }}>See more in linkedin and CV</h3>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
-          />
-          <img
-            src={image2}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt="myimage"
           />
         </div>
         <div className="container">
